@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.75) 12px 12px 0;
+    background-color: #ffffff;
+}
+
+.button {
+    min-width: 128px;
+    margin: 16px 4px 0;
+    border-radius: 2px;
+    border-color: black;
+    box-shadow: rgba(0, 0, 0, 0.75) 4px 4px 0;
+    background-color: #fca311;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 0;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligns the container to the top instead of centering */
+    height: 100vh; /* Keeps full height for the app wrapper */
+}
+
+.login-form {
+    margin-top: -10rem
+}
+
+.form-input {
+    border-width: 2px 4px 4px 2px ;
+    border-color: black;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 0;
+}
+
+.hr {
+    width: 100%;
+    margin: 0.5rem;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-title {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    /*background-color: #14213D;*/
+    /*color: #FFFFFF;*/
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.forgot-password {
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: grey;
+    margin-top: 0.5rem;
+    align-self: flex-end;
+    margin-bottom: -0.5rem;
+    margin-left: 0.5rem;
+}
