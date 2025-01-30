@@ -26,9 +26,15 @@
 
 .app {
     display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    display: flex;
     justify-content: center;
     align-items: center; /* Aligns the container to the top instead of centering */
-    height: 100vh; /* Keeps full height for the app wrapper */
+    height: 95%
 }
 
 .login-form {
@@ -70,4 +76,21 @@
     align-self: flex-end;
     margin-bottom: -0.5rem;
     margin-left: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    background-color: #14213d;
+    color: white;
+    height: 5%;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navbar span:last-child {
+    margin-right: 1rem;
 }

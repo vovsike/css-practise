@@ -3,14 +3,14 @@ import './App.css'
 function App() {
 
   return (
-      <>
-          <nav>
+      <div className={"app"}>
+          <nav className={"navbar"}>
               <span>Some text</span>
               <span>Some text</span>
               <span>Some text</span>
               <span>Some text</span>
           </nav>
-          <div className="app">
+          <div className="main">
               <form className={"container login-form"}>
                   <span className={"form-title"}>Please login</span>
                   <hr className={"hr"}/>
@@ -29,7 +29,7 @@ function App() {
                   </div>
               </form>
           </div>
-      </>
+      </div>
 
   )
 }
